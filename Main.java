@@ -2,6 +2,7 @@ import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello welcome to my Car Renta Management System you Can rent your cars here...lol imaginary tho..\n");
         // Create some customers
          Customer customer1 = new Customer("John Doe", "C001");
         Customer customer2 = new Customer("Jane Smith", "C002");
@@ -27,7 +28,10 @@ public class Main {
         // Return the car
         rentalAgency.returnCar(car1);
 
+        System.out.printl();
+        
         // Print the rental agency report
+        System.out.println("**Rental Agency Report**");
         System.out.println(rentalAgency.report());
     }
 }
